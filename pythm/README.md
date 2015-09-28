@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-Calculated the length of a side of a right triangle given two other sides
+Calculate the length of a side of a right triangle given two other sides
 
 ## RUNNING
 

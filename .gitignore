@@ -1,3 +1,12 @@
+# EVERYTHING
+*
+
+# Unignore files with extensions
+!*.*
+
+# Unignore dirs
+!*/
+
 # Created by https://www.gitignore.io/api/vim,c
 
 ### Vim ###
@@ -42,4 +51,3 @@ Session.vim
 
 # Debug files
 *.dSYM/
-

@@ -1,6 +1,7 @@
 /*
  * box.c - Draw a simple ascii box given the length of the x side and y side
  */
+
 #include <stdio.h>
 #include <stdlib.h>
 
