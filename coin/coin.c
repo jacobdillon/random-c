@@ -4,14 +4,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <time.h>
 
 void printUsage()
 {
-	printf("\
-coin - flip a coin\n\
-");
+	printf("coin - flip a coin\n");
 }
 
 int main(int argc, char* argv[])
@@ -23,7 +20,7 @@ int main(int argc, char* argv[])
 	if(argc != 1)
 	{
 		printUsage();
-		exit(EXIT_SUCCESS);
+		return 1;
 	}
 
 	// Generate random seed
@@ -40,5 +37,5 @@ int main(int argc, char* argv[])
 		printf("tails\n");
 	}
 
-	exit(EXIT_SUCCESS);
+	return 0;
 }
